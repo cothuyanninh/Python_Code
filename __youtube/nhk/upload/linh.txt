@@ -1,2 +1,0 @@
-dm.py --file "0.mp4" --title "【えいごリアン】Hello! How are you? | クリップ | NHK for School" --description " お困りの際には、「困ったときは…」をご覧ください。日常のあいさつ（気分・感情）この動画へのリンクをコピー日常のあいさつ
-今日のえいごリアンは、どんな英語をはなすかな？日常のあいさつ（気分・感情）" --keywords "NHK,NHK for School,学校,放送,教育,番組,クリップ,ゲーム,電子黒板" --publishAt "2018-10-28T09:00:00.0Z"
