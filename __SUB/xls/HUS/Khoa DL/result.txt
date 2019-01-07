@@ -1,0 +1,492 @@
+1	10000473	NguyenLeGiang_t55@hus.edu.vn
+2	10000474	LeThiKhanhHoa_t55@hus.edu.vn
+3	10001114	DangThiMinhHue_t55@hus.edu.vn
+4	10001115	DangHuuLieu_t55@hus.edu.vn
+5	10000475	NguyenThiThuNam_t55@hus.edu.vn
+6	10001116	NguyenThiNhan_t55@hus.edu.vn
+7	10000500	NguyenThiPhuong_t55@hus.edu.vn
+8	10001117	NguyenHongPhuong_t55@hus.edu.vn
+9	10001157	DinhThiThanh_t55@hus.edu.vn
+10	10001276	NguyenQuangHuy_t55@hus.edu.vn
+11	10000476	VuongThiTuyen_t55@hus.edu.vn
+12	10000489	PhamHongHoa_t55@hus.edu.vn
+13	10000477	DuongThiLanAnh_t55@hus.edu.vn
+14	10000478	NguyenCongTuanAnh_t55@hus.edu.vn
+15	10001118	TranHoaiAnh_t55@hus.edu.vn
+16	10001120	VuThiNgocAn_t55@hus.edu.vn
+17	10000479	TranVanBa_t55@hus.edu.vn
+18	10000480	NgoVanBinh_t55@hus.edu.vn
+19	10001124	NguyenVanChuyen_t55@hus.edu.vn
+20	10001123	NguyenVanCuong_t55@hus.edu.vn
+21	10001236	PhamHungCuong_t55@hus.edu.vn
+22	10001125	TranThiDiu_t55@hus.edu.vn
+23	10001126	DangThiDung_t55@hus.edu.vn
+24	10000481	NguyenKimDung_t55@hus.edu.vn
+25	10001127	NguyenTienDung_t55@hus.edu.vn
+26	10000482	TrinhCongDung_t55@hus.edu.vn
+27	10001128	DangThuyDuong_t55@hus.edu.vn
+28	10001270	AuThanhDat_t55@hus.edu.vn
+29	10000483	PhanThanhDat_t55@hus.edu.vn
+30	10001130	DoanTrungDuc_t55@hus.edu.vn
+31	10001131	TranTienDuc_t55@hus.edu.vn
+32	10001133	DangThuGiang_t55@hus.edu.vn
+33	10001254	HoThiGiang_t55@hus.edu.vn
+34	10001134	NguyenThiHuongGiang_t55@hus.edu.vn
+35	10001132	TranThiHuongGiang_t55@hus.edu.vn
+36	10000484	NguyenThiThuHa_t55@hus.edu.vn
+37	10000486	HoangVuHai_t55@hus.edu.vn
+38	10001135	NguyenNamHai_t55@hus.edu.vn
+39	10000485	NguyenTrungHai_t55@hus.edu.vn
+40	10001255	LeThuHao_t55@hus.edu.vn
+41	10000487	HoangDieuHang_t55@hus.edu.vn
+42	10001136	PhanDiemHang_t55@hus.edu.vn
+43	10001137	TranThiHongHau_t55@hus.edu.vn
+44	10000488	NguyenXuanHien_t55@hus.edu.vn
+45	10001139	VuThiPhuongHoa_t55@hus.edu.vn
+46	10001140	NguyenHuyHoang_t55@hus.edu.vn
+47	10000490	NguyenThiThanhHuyen_t55@hus.edu.vn
+48	10000491	NguyenVietHung_t55@hus.edu.vn
+49	10000761	NguyenDuyKhanh_t55@hus.edu.vn
+50	10001142	NguyenBuiMaiLien_t55@hus.edu.vn
+51	10000492	NguyenThiLien_t55@hus.edu.vn
+52	10000493	PhamThiLien_t55@hus.edu.vn
+53	10000494	TaThiLieu_t55@hus.edu.vn
+54	10000495	DaoThuyLinh_t55@hus.edu.vn
+55	10001143	TranNhatLinh_t55@hus.edu.vn
+56	10001144	TranThiTrangLinh_t55@hus.edu.vn
+57	10000496	PhamQuangLong_t55@hus.edu.vn
+58	10000497	TranDinhLuyen_t55@hus.edu.vn
+59	10001147	TaDuyManh_t55@hus.edu.vn
+60	10001149	NguyenThiThanhNga_t55@hus.edu.vn
+61	10001148	TranThiHangNga_t55@hus.edu.vn
+62	10000499	PhamPhuongNguyen_t55@hus.edu.vn
+63	10001150	TongThiOanh_t55@hus.edu.vn
+64	10001151	NguyenHongPhuong_t55@hus.edu.vn
+65	10001152	NguyenVanPhuong_t55@hus.edu.vn
+66	10001153	CaoBaQuat_t55@hus.edu.vn
+67	10000501	DoHongQuan_t55@hus.edu.vn
+68	10000508	TranDinhQuan_t55@hus.edu.vn
+69	10000502	MacThiQuyen_t55@hus.edu.vn
+70	10001167	PhamThiNgocQuynh_t55@hus.edu.vn
+71	10001154	LeNgocSon_t55@hus.edu.vn
+72	10001158	HoangThuThao_t55@hus.edu.vn
+73	10000509	NguyenThiThao_t55@hus.edu.vn
+74	10001156	NguyenChienThang_t55@hus.edu.vn
+75	10001160	NguyenThiKimThoa_t55@hus.edu.vn
+76	10001161	DamGiaiThoai_t55@hus.edu.vn
+77	10001163	DoThiThuan_t55@hus.edu.vn
+78	10001165	DoThiThuy_t55@hus.edu.vn
+79	10001164	DinhThiPhuongThuy_t55@hus.edu.vn
+80	10000504	LeThuThuy_t55@hus.edu.vn
+81	10001162	PhamThiHongThu_t55@hus.edu.vn
+82	10001269	LeThiHuyenTrang_t55@hus.edu.vn
+83	10000505	LeThiQuynhTrang_t55@hus.edu.vn
+84	10001155	LaThiTuyet_t55@hus.edu.vn
+85	10001257	LuongThiTuyet_t55@hus.edu.vn
+86	10000510	NguyenThiNgocTu_t55@hus.edu.vn
+87	10000506	LeToUyen_t55@hus.edu.vn
+88	10000511	ChuThiHaVan_t55@hus.edu.vn
+89	10001166	DinhThiVan_t55@hus.edu.vn
+90	10000507	HoangThiHongVan_t55@hus.edu.vn
+91	10000512	ViVanViet_t55@hus.edu.vn
+92	10001256	DuongThiHongNam_t55@hus.edu.vn
+93	10001121	PhamNgocAnh_t55@hus.edu.vn
+94	10001122	NguyenVanCong_t55@hus.edu.vn
+95	10001129	TranThanhDat_t55@hus.edu.vn
+96	10001141	DinhThiLanHuong_t55@hus.edu.vn
+97	10001146	NguyenThiAnLy_t55@hus.edu.vn
+98	10000498	BuiBichMai_t55@hus.edu.vn
+99	10001159	DoanDucThien_t55@hus.edu.vn
+100	11001699	DoPhuongThao_t56@hus.edu.vn
+101	11001836	TranQuocThinh_t56@hus.edu.vn
+102	11001557	DangThanhTung_t56@hus.edu.vn
+103	11001479	LeThiKimAnh_t56@hus.edu.vn
+104	11001485	NguyenPhuongAnh_t56@hus.edu.vn
+105	11001743	NguyenTuanDung_t56@hus.edu.vn
+106	11001440	DaoThuyDuong_t56@hus.edu.vn
+107	11001502	VuThiHanh_t56@hus.edu.vn
+108	11001608	LeThiHang_t56@hus.edu.vn
+109	11000585	BuiMaiHuong_t56@hus.edu.vn
+110	11001049	MaiThiHuong_t56@hus.edu.vn
+111	11000309	NguyenThiHuong_t56@hus.edu.vn
+112	11001453	TranQuangKhai_t56@hus.edu.vn
+113	11001621	NguyenThiThanhLam_t56@hus.edu.vn
+114	11001788	HaThiPhuongLe_t56@hus.edu.vn
+115	11000875	NguyenDoanLong_t56@hus.edu.vn
+116	11000869	DoNgocMai_t56@hus.edu.vn
+117	11001044	HanThiKimNgan_t56@hus.edu.vn
+118	11001764	NguyenThiThuyNgan_t56@hus.edu.vn
+119	11000990	NgoThiBichNgoc_t56@hus.edu.vn
+120	11001099	LocKimOanh_t56@hus.edu.vn
+121	11001758	HaThiBichPhuong_t56@hus.edu.vn
+122	11000544	HoangNgocTam_t56@hus.edu.vn
+123	11001540	PhamChinhThao_t56@hus.edu.vn
+124	11001650	NguyenThiThan_t56@hus.edu.vn
+125	11001037	DoThiThiet_t56@hus.edu.vn
+126	11001773	NguyenDucThinh_t56@hus.edu.vn
+127	11000978	VuThiThuy_t56@hus.edu.vn
+128	11001470	DoanThiThuTrang_t56@hus.edu.vn
+129	11001779	KieuTuyetTrinh_t56@hus.edu.vn
+130	11000674	DoThiKimTuyen_t56@hus.edu.vn
+131	11001488	BuiViAnh_t56@hus.edu.vn
+132	11001494	PhanLeHuyDung_t56@hus.edu.vn
+133	11001690	NguyenNhatLinh_t56@hus.edu.vn
+134	11001563	TranCanhNguyen_t56@hus.edu.vn
+135	11000916	DamThiNu_t56@hus.edu.vn
+136	11001769	DangThiOanh_t56@hus.edu.vn
+137	11000843	NguyenThiMaiPhuong_t56@hus.edu.vn
+138	11001124	PhanThiSinh_t56@hus.edu.vn
+139	11001577	PhamThiHoangYen_t56@hus.edu.vn
+140	11000040	HaNgocAnh_t56@hus.edu.vn
+141	11000125	PhamTienDat_t56@hus.edu.vn
+142	11000382	VuDuyLuan_t56@hus.edu.vn
+143	10001029	DuongQuocAnh_t55@hus.edu.vn
+144	11001565	HoangQuyenAnh_t56@hus.edu.vn
+145	11000020	NguyenThiKimAnh_t56@hus.edu.vn
+146	11001478	NguyenVietAnh_t56@hus.edu.vn
+147	11001566	TranThiQuynhAnh_t56@hus.edu.vn
+148	11001676	TranThiVanAnh_t56@hus.edu.vn
+149	11000038	VanThiQuynhAnh_t56@hus.edu.vn
+150	11000043	NguyenQuangAn_t56@hus.edu.vn
+151	11001207	LeThiThuyBinh_t56@hus.edu.vn
+152	11000071	PhamVanChung_t56@hus.edu.vn
+153	11001600	BuiThiLanDung_t56@hus.edu.vn
+154	11000095	PhamThuyDung_t56@hus.edu.vn
+155	11001681	DangNgocDuy_t56@hus.edu.vn
+156	11001744	NguyenTienDung_t56@hus.edu.vn
+157	11000112	DaoQuyDuong_t56@hus.edu.vn
+158	11000135	BuiHuongGiang_t56@hus.edu.vn
+159	11000921	DangThiHuongGiang_t56@hus.edu.vn
+160	11000142	DangThuHa_t56@hus.edu.vn
+161	11000159	HoangQuocHai_t56@hus.edu.vn
+162	11000212	TranDangHiep_t56@hus.edu.vn
+163	11000219	NguyenThiHoan_t56@hus.edu.vn
+164	11001568	DangThiHuyen_t56@hus.edu.vn
+165	11000864	DangThiThanhHuong_t56@hus.edu.vn
+166	11000940	TrinhThiMaiHuong_t56@hus.edu.vn
+167	11000313	DoanMinhKhang_t56@hus.edu.vn
+168	11000901	DinhDuyKhanh_t56@hus.edu.vn
+169	11000962	NguyenBaoKhanh_t56@hus.edu.vn
+170	11000325	TranTuanKiet_t56@hus.edu.vn
+171	11000336	DangThiTuyetLe_t56@hus.edu.vn
+172	11000340	NguyenThiLien_t56@hus.edu.vn
+173	11000835	NguyenLeDieuLinh_t56@hus.edu.vn
+174	11000915	NguyenThiMyLinh_t56@hus.edu.vn
+175	11000374	NgoThanhLong_t56@hus.edu.vn
+176	11000375	NguyenMinhLong_t56@hus.edu.vn
+177	11000402	PhamTraMi_t56@hus.edu.vn
+178	11001761	LeThiLeMy_t56@hus.edu.vn
+179	11000927	PhamVanNam_t56@hus.edu.vn
+180	11001068	TranThiThuyNga_t56@hus.edu.vn
+181	11000982	HoangBichNgan_t56@hus.edu.vn
+182	11001763	TruongThiNgan_t56@hus.edu.vn
+183	11000443	NguyenAnhNgoc_t56@hus.edu.vn
+184	11000472	NguyenThiNhu_t56@hus.edu.vn
+185	11000498	AnThanhPhuoc_t56@hus.edu.vn
+186	11000481	DaoThiPhuong_t56@hus.edu.vn
+187	11000482	DoMaiPhuong_t56@hus.edu.vn
+188	11000946	VuThiPhuong_t56@hus.edu.vn
+189	11001432	PhamHongQuan_t56@hus.edu.vn
+190	11000533	TranVanSang_t56@hus.edu.vn
+191	11000535	NguyenThiSam_t56@hus.edu.vn
+192	11000939	NguyenThanhTam_t56@hus.edu.vn
+193	11001043	NguyenThiNgocTan_t56@hus.edu.vn
+194	11000572	NguyenVanThai_t56@hus.edu.vn
+195	11000553	NguyenThiThanh_t56@hus.edu.vn
+196	11000556	CuThiPhuongThao_t56@hus.edu.vn
+197	11000569	VuPhuongThao_t56@hus.edu.vn
+198	11000587	GiangThiThoa_t56@hus.edu.vn
+199	11000800	ToThiThanhThuy_t56@hus.edu.vn
+200	11000615	NguyenTrungThuc_t56@hus.edu.vn
+201	11001069	NguyenThiTra_t56@hus.edu.vn
+202	11001639	NguyenHuyenTrang_t56@hus.edu.vn
+203	11001067	NguyenThiTrang_t56@hus.edu.vn
+204	11000640	NguyenThiHuyenTrang_t56@hus.edu.vn
+205	11000781	NguyenThiThuyTrang_t56@hus.edu.vn
+206	11001052	DoThiTuyen_t56@hus.edu.vn
+207	11000685	TranQuangTu_t56@hus.edu.vn
+208	11000679	NguyenThanhTung_t56@hus.edu.vn
+209	11001643	LeAnhVan_t56@hus.edu.vn
+210	11000707	NguyenVanVuong_t56@hus.edu.vn
+211	11000710	NguyenHongXuyen_t56@hus.edu.vn
+212	12000001	BuiHaiAn_t57@hus.edu.vn
+213	12000287	ToXuanHoa_t57@hus.edu.vn
+214	12002010	NinhThiThanhHuyen_t57@hus.edu.vn 		X
+215	12001859	TranThiCamThu_t57@hus.edu.vn 			X
+216	12000940	NguyenThiHuyenTrang_t57@hus.edu.vn 		X
+217	12001456	VuThiNhuYen_t57@hus.edu.vn
+218	12000002	HuynhMinhThuyAn_t57@hus.edu.vn
+219	12002029	PhamVanAnh_t57@hus.edu.vn 				X
+220	12001877	PhamVietCuong_t57@hus.edu.vn
+221	12000105	TranThiDau_t57@hus.edu.vn
+222	12001747	TaThuyDuong_t57@hus.edu.vn
+223	12002191	NguyenTienDat_t57@hus.edu.vn 			X
+224	12000173	ChuHuuHa_t57@hus.edu.vn
+225	12000183	NguyenThiThuHa_t57@hus.edu.vn
+226	12000207	NguyenThiHao_t57@hus.edu.vn 			X
+227	12000222	BuiThiHang_t57@hus.edu.vn
+228	12000223	LeThiHang_t57@hus.edu.vn 				X
+229	12000243	CaoThiHien_t57@hus.edu.vn 				X
+230	12000257	PhamThiThuHien_t57@hus.edu.vn 			X
+231	12001876	DoMinhHung_t57@hus.edu.vn
+232	12000377	NguyenDangHung_t57@hus.edu.vn
+233	12001878	NguyenDuyKhanh_t57@hus.edu.vn
+234	12001261	TranThiMyLinh_t57@hus.edu.vn
+235	12000569	NguyenThuyMy_t57@hus.edu.vn 			X
+236	12002037	NguyenThiThuyNga_t57@hus.edu.vn
+237	12000610	NguyenHongNgoc_t57@hus.edu.vn 			X
+238	12000653	BuiThiNhung_t57@hus.edu.vn
+239	12000684	NguyenThuOanh_t57@hus.edu.vn
+240	12000688	TranThiOanh_t57@hus.edu.vn
+241	12000751	NguyenThiQuynh_t57@hus.edu.vn
+242	12000764	NguyenNgocSon_t57@hus.edu.vn 			X
+243	12000819	DoThiHongTham_t57@hus.edu.vn 			X
+244	12001860	BuiThiHuongThu_t57@hus.edu.vn
+245	12001861	NguyenThiHoaiThuong_t57@hus.edu.vn 		X
+246	12000967	VuThiTrang_t57@hus.edu.vn
+247	12001577	NguyenThiTuyet_t57@hus.edu.vn 			X
+248	12001600	PhamThiLan_t57@hus.edu.vn 				X
+249	12000132	NguyenHuyDung_t57@hus.edu.vn
+250	12000270	LaiThiHoa_t57@hus.edu.vn 				X
+251	12002067	DangHaiLam_t57@hus.edu.vn 				X
+252	12001811	DinhThiThuyNga_t57@hus.edu.vn 			X
+253	12001930	NguyenTienPhu_t57@hus.edu.vn 			X
+254	12002220	LeVanQuang_t57@hus.edu.vn  				X
+255	12001997	NguyenKhanhQuynh_t57@hus.edu.vn 		X
+256	12002005	HoangVietLong_t57@hus.edu.vn 			X
+257	12002273	BuiHongNgoc_t57@hus.edu.vn
+258	12001530	TranTrungNhan_t57@hus.edu.vn
+259	12000803	NguyenPhuongThao_t57@hus.edu.vn 		X
+260	12001701	HoangAnhTuan_t57@hus.edu.vn 			X
+261	12001713	DaoChauAnh_t57@hus.edu.vn
+262	12001617	LeVietAnh_t57@hus.edu.vn 				X
+263	12000039	PhamHongAnh_t57@hus.edu.vn
+264	12000045	TrieuThiMaiAnh_t57@hus.edu.vn
+265	12000066	DinhThiBich_t57@hus.edu.vn
+266	12000121	TranVietDuy_t57@hus.edu.vn
+267	12000142	TranThiMinhDan_t57@hus.edu.vn
+268	12001158	NguyenHoangDat_t57@hus.edu.vn
+269	12000147	LeHaiDang_t57@hus.edu.vn
+270	10000962	TranThanhHa_t55@hus.edu.vn
+271	12001191	NguyenMinhHiep_t57@hus.edu.vn
+272	12001645	NguyenThanhHieu_t57@hus.edu.vn
+273	12001986	DoThiHoa_t57@hus.edu.vn
+274	12000302	ChuThiNgocHong_t57@hus.edu.vn 			X
+275	12001652	NguyenThiMinhHue_t57@hus.edu.vn
+276	12000333	NgoQuangHuy_t57@hus.edu.vn 				X
+277	12000371	NguyenVanHuynh_t57@hus.edu.vn
+278	12001655	NguyenDangThienHuong_t57@hus.edu.vn
+279	12000608	LyThiHongNgoc_t57@hus.edu.vn 			X
+280	12002076	NguyenThiBichNgoc_t57@hus.edu.vn
+281	12000638	VuThiNhai_t57@hus.edu.vn
+282	12000664	NguyenThiNhung_t57@hus.edu.vn
+283	12000694	NguyenDinhPhuc_t57@hus.edu.vn
+284	12000720	QuachMinhPhuong_t57@hus.edu.vn 			X
+285	12000724	TranThiPhuong_t57@hus.edu.vn 			X
+286	12000755	NguyenVanQuy_t57@hus.edu.vn 			X
+287	12001683	NguyenVanThai_t57@hus.edu.vn
+288	12000799	HoangThiThuThao_t57@hus.edu.vn
+289	12001367	LeThiThuThao_t57@hus.edu.vn 			?
+290	12000911	DinhThiThu_t57@hus.edu.vn
+291	12000919	NguyenVanTien_t57@hus.edu.vn
+292	12001693	LeThiTrang_t57@hus.edu.vn
+293	12000943	NguyenThiNgocTrang_t57@hus.edu.vn
+294	12000957	PhiPhuongTrang_t57@hus.edu.vn
+295	12000983	NguyenThanhTrung_t57@hus.edu.vn
+296	12001435	NguyenTuan_t57@hus.edu.vn
+297	12001576	ThaiVanTuan_t57@hus.edu.vn
+298	12001442	DoThiVan_t57@hus.edu.vn 				X
+299	12001085	NguyenThiHaiYen_t57@hus.edu.vn
+300	12001453	NguyenThiHaiYen_t57@hus.edu.vn
+301	12001700	DangThanhTuan_t57@hus.edu.vn 			X
+302	13002224	NguyenHoangAnh_t58@hus.edu.vn
+303	13000162	VuThiDiu_t58@hus.edu.vn 				X
+304	13001590	BuiThiDung_t58@hus.edu.vn
+305	13000231	NguyenVanDat_t58@hus.edu.vn
+306	13000309	NguyenVanHai_t58@hus.edu.vn 			?
+307	13000333	DuongThiPhuongHang_t58@hus.edu.vn 		X
+308	13000334	DangThiThanhHang_t58@hus.edu.vn 		?
+309	13000353	NguyenThuHang_t58@hus.edu.vn
+310	13000465	DuongNghiepHoang_t58@hus.edu.vn
+311	13001866	NhamThiThanhHuyen_t58@hus.edu.vn
+312	13000550	TrieuThuHuyen_t58@hus.edu.vn
+313	13001497	ChuTungLam_t58@hus.edu.vn 				X
+314	13001919	NguyenThiThuyLinh_t58@hus.edu.vn
+315	13001930	TranThiThuyLinh_t58@hus.edu.vn
+316	13002295	NguyenThiMai_t58@hus.edu.vn
+317	13001960	LeTrangMy_t58@hus.edu.vn
+318	13002306	HoangThiNgoc_t58@hus.edu.vn
+319	13000922	NguyenThiNhan_t58@hus.edu.vn 			X
+320	13000933	DuongHongNhung_t58@hus.edu.vn
+321	13000947	PhungThiNhung_t58@hus.edu.vn 			?
+322	13001994	TranThiNhung_t58@hus.edu.vn
+323	13001028	NguyenVanQuan_t58@hus.edu.vn
+324	13001090	DinhThiThanh_t58@hus.edu.vn
+325	13001132	NguyenThiThao_t58@hus.edu.vn
+326	13001169	NguyenThiThoang_t58@hus.edu.vn
+327	13001280	NguyenHaTrang_t58@hus.edu.vn
+328	13002182	NguyenLinhTrang_t58@hus.edu.vn
+329	13002211	TranThiThuyTrang_t58@hus.edu.vn
+330	13002339	TrinhHaiTrang_t58@hus.edu.vn
+331	13001424	DaoThiHaiYen_t58@hus.edu.vn
+332	13000057	PhamNgocTuanAnh_t58@hus.edu.vn
+333	13000854	NgoThiNga_t58@hus.edu.vn
+334	13002286	NguyenDuyLinh_t58@hus.edu.vn 			X
+335	13002308	LeVietNhi_t58@hus.edu.vn 				X
+336	13001019	TrieuDucPhuong_t58@hus.edu.vn 			X
+337	13001089	NguyenBaTan_t58@hus.edu.vn 				X
+338	13001263	DinhThiHuyenTrang_t58@hus.edu.vn 		X
+339	13001385	NguyenHoangTuoc_t58@hus.edu.vn 			X
+340	14002622	TranHaiAnh_t59@hus.edu.vn
+341	14000217	PhamCongSonHai_t59@hus.edu.vn
+342	14000249	NguyenThiHien_t59@hus.edu.vn
+343	14000248	NguyenThiPhuongHien_t59@hus.edu.vn
+344	14001229	DoThiMinhHuyen_t59@hus.edu.vn
+345	14000373	NguyenThuHuong_t59@hus.edu.vn
+346	14000410	LeThiLan_t59@hus.edu.vn
+347	14000480	HoangThiThanhLoan_t59@hus.edu.vn
+348	13000791	NguyenThiHoaMai_t58@hus.edu.vn
+349	14000666	KieuThiQuyen_t59@hus.edu.vn
+350	14000680	MaiThiQuynh_t59@hus.edu.vn
+351	14002473	PhamVanQuynh_t59@hus.edu.vn
+352	14000702	PhamThanhTam_t59@hus.edu.vn
+353	14000749	NguyenHuyThang_t59@hus.edu.vn
+354	14002585	PhamThiThuy_t59@hus.edu.vn
+355	14000863	TranThiThuyTrang_t59@hus.edu.vn
+356	14001075	NguyenThiHaiYen_t59@hus.edu.vn
+357	14002545	CaoThiTraMy_t59@hus.edu.vn
+358	14001122	TranThiQuyen_t59@hus.edu.vn 		X
+359	14000807	HoangDieuThuy_t59@hus.edu.vn 		X
+360	14001317	HoTranAnhThu_t59@hus.edu.vn 		X
+361	14000843	LeThiTrang_t59@hus.edu.vn
+362	15004121	NguyenHoangBach_t60@hus.edu.vn
+363	15002402	DoThiKimChi_t60@hus.edu.vn
+364	15000875	HoangAnhDung_t60@hus.edu.vn
+365	15002364	VuHuuDang_t60@hus.edu.vn
+366	15000897	NguyenPhuongHa_t60@hus.edu.vn
+367	15000911	NgoMinhHuyen_t60@hus.edu.vn
+368	15002351	NguyenDuyKhanh_t60@hus.edu.vn 		?
+369	15002365	NguyenPhucMinh_t60@hus.edu.vn
+370	15002404	VuThiNhan_t60@hus.edu.vn 			?
+371	15004117	LeNguyenNhat_t60@hus.edu.vn
+372	15000902	NguyenThiLanPhuong_t60@hus.edu.vn
+373	15000898	NguyenNhatQuang_t60@hus.edu.vn
+374	15002393	HoangMinhTam_t60@hus.edu.vn 		?
+375	15000892	LeChienThang_t60@hus.edu.vn
+376	15004118	HaThiThem_t60@hus.edu.vn
+377	15002353	NguyenThiThuy_t60@hus.edu.vn
+378	15004415	NguyenVanTrai_t60@hus.edu.vn 		?
+379	15002360	PhamThiThuyTrang_t60@hus.edu.vn
+380	15000909	VuVanAnh_t60@hus.edu.vn
+381	15000878	DinhThiTraMy_t60@hus.edu.vn 		?
+382	15001768	PhamThiNgan_t60@hus.edu.vn 			X
+383	15002346	DinhThiThuTrang_t60@hus.edu.vn 		X
+384	15000968	BuiThiLanAnh_t60@hus.edu.vn
+385	15000922	NguyenLanAnh_t60@hus.edu.vn
+386	15003320	DoQuangAnh_t60@hus.edu.vn
+387	15004281	LeDucAnh_t60@hus.edu.vn
+388	15003369	NguyenDucAnh_t60@hus.edu.vn
+389	15003307	NguyenThiVanAnh_t60@hus.edu.vn
+390	15004280	PhamDuyAnh_t60@hus.edu.vn
+391	15004438	VuVanAnh_t60@hus.edu.vn
+392	15000997	NguyenGiaBao_t60@hus.edu.vn
+393	15003299	NguyenDuyCuong_t60@hus.edu.vn
+394	15001011	TongCongCuong_t60@hus.edu.vn
+395	15004294	DinhVietCuong_t60@hus.edu.vn
+396	15004270	NguyenThiDiem_t60@hus.edu.vn
+397	15004303	NgoHuyDai_t60@hus.edu.vn
+398	15004301	NguyenMinhDuc_t60@hus.edu.vn
+399	15000955	NguyenThiHuongGiang_t60@hus.edu.vn
+400	15000980	NguyenNgocHa_t60@hus.edu.vn
+401	15004306	NguyenThaiHa_t60@hus.edu.vn
+402	15003331	NguyenThiThanhHa_t60@hus.edu.vn
+403	15004413	PhungThiVietHa_t60@hus.edu.vn
+404	15000978	NgoHongHanh_t60@hus.edu.vn
+405	15001864	DoThiHanh_t60@hus.edu.vn
+406	15003350	TranThuyHanh_t60@hus.edu.vn
+407	15003362	HoangThiThuHien_t60@hus.edu.vn
+408	15004288	DoMinhHoa_t60@hus.edu.vn
+409	15003335	LeThiHoa_t60@hus.edu.vn
+410	15004278	LoThiThuHoai_t60@hus.edu.vn
+411	15000937	NgoQuangHuy_t60@hus.edu.vn
+412	15004284	NguyenQuangHuy_t60@hus.edu.vn
+413	15000931	NguyenThiHuyen_t60@hus.edu.vn
+414	15000940	NguyenThiMaiHuong_t60@hus.edu.vn
+415	15000998	NguyenThiMinhHuong_t60@hus.edu.vn
+416	15003381	LuongThiHuong_t60@hus.edu.vn
+417	15003359	NguyenDangKhanh_t60@hus.edu.vn
+418	15003339	NguyenThiAnKhanh_t60@hus.edu.vn
+419	15003346	NgoTrungKien_t60@hus.edu.vn
+420	15000934	DoThiPhuongLinh_t60@hus.edu.vn
+421	15000951	LeThiLinh_t60@hus.edu.vn
+422	15000993	LeThiMyLinh_t60@hus.edu.vn
+423	15004293	DuongThiThuyLinh_t60@hus.edu.vn
+424	15001865	NongThiDieuLinh_t60@hus.edu.vn
+425	15004416	PhamVietLinh_t60@hus.edu.vn
+426	15001866	HoangThiNguyetLy_t60@hus.edu.vn 		?
+427	15004273	NguyenThaoMai_t60@hus.edu.vn
+428	15000962	HoangHaMy_t60@hus.edu.vn
+429	15004283	HaPhuongNam_t60@hus.edu.vn
+430	15003298	LuongMaiNgan_t60@hus.edu.vn
+431	15003325	TranThiKimNgoc_t60@hus.edu.vn
+432	15004305	VuThiNguyet_t60@hus.edu.vn
+433	15004299	LeThiKhanhNinh_t60@hus.edu.vn
+434	15003375	TranThiKimOanh_t60@hus.edu.vn
+435	15000964	BuiLanPhuong_t60@hus.edu.vn
+436	15004298	DaoThaiPhuong_t60@hus.edu.vn
+437	15004437	NguyenMinhQuan_t60@hus.edu.vn
+438	15001867	HaMinhQuyen_t60@hus.edu.vn
+439	15004286	TaQuangQuynh_t60@hus.edu.vn
+440	15004296	DoThiThanhTam_t60@hus.edu.vn
+441	15004295	TrieuDucThanh_t60@hus.edu.vn
+442	15004297	LeMinhThang_t60@hus.edu.vn
+443	15001869	LeQuangThang_t60@hus.edu.vn
+444	15004300	NguyenVietThang_t60@hus.edu.vn
+445	15000952	NguyenDucThien_t60@hus.edu.vn
+446	15003282	PhanVanThuan_t60@hus.edu.vn
+447	15000912	TrinhThiMinhThuy_t60@hus.edu.vn
+448	15001953	MaKimThuy_t60@hus.edu.vn
+449	15000947	HoangThiHoaiThuong_t60@hus.edu.vn
+450	15000971	KhucVinhTiem_t60@hus.edu.vn
+451	15001003	NguyenThuTrang_t60@hus.edu.vn
+452	15004435	PhungThiQuynhTrang_t60@hus.edu.vn
+453	15003384	TruongThuyVi_t60@hus.edu.vn
+454	15000970	TranManhVu_t60@hus.edu.vn
+455	15000973	NguyenHaiYen_t60@hus.edu.vn ----------------------------------
+456	15003351	TranDucChinh_t60@hus.edu.vn
+457	15001009	NguyenChiCong_t60@hus.edu.vn
+458	15004290	LeThiMyHoa_t60@hus.edu.vn 				X
+459	15004279	LeThiThanhHue_t60@hus.edu.vn
+460	15003408	VuDuyHung_t60@hus.edu.vn
+461	15004282	NguyenVanTuan_t60@hus.edu.vn
+462	16000718	LeDuyAnh_t61@hus.edu.vn
+463	16000728	NguyenNgocDiep_t61@hus.edu.vn
+464	16000749	NguyenHoangLong_t61@hus.edu.vn 			?
+465	16000752	PhamThiTuyetMinh_t61@hus.edu.vn
+466	16000756	DuongThiNghia_t61@hus.edu.vn
+467	16000764	PhamVietThanh_t61@hus.edu.vn
+468	16000774	DuongThiCamTu_t61@hus.edu.vn 			X
+469	16000777	PhamTienMinhTuan_t61@hus.edu.vn
+470	16003295	VuTrungLuyen_t61@hus.edu.vn
+471	16003296	NguyenDaiDuong_t61@hus.edu.vn
+472	16001901	PhamHaiAn_t61@hus.edu.vn 				X
+473	16001920	DamManhCuong_t61@hus.edu.vn 			?
+474	16001930	NguyenDucPhuongDong_t61@hus.edu.vn
+475	16001941	NguyenMinhHieu_t61@hus.edu.vn
+476	16001946	BuiMinhHoang_t61@hus.edu.vn
+477	16001952	TranVietHung_t61@hus.edu.vn 			?
+478	16001953	NguyenQuangHuy_t61@hus.edu.vn 			?
+479	16001958	MaiThiHuong_t61@hus.edu.vn 				?
+480	16001959	NguyenThiHuong_t61@hus.edu.vn
+481	16001962	VuThiThuyHuong_t61@hus.edu.vn
+482	16001968	CaoMinhKhuong_t61@hus.edu.vn 			?
+483	16001979	VoTuanLinh_t61@hus.edu.vn
+484	16002009	PhungVietPhuong_t61@hus.edu.vn
+485	16002020	DaoThiPhuongThao_t61@hus.edu.vn
+486	16002031	KieuMinhTrang_t61@hus.edu.vn 			?
+487	16002037	NguyenThiThuyTrang_t61@hus.edu.vn
+488	16002039	BuiPhuTri_t61@hus.edu.vn
+489	16002042	DoanThiTuoi_t61@hus.edu.vn
+490	16003449	NguyenVanPhu_t61@hus.edu.vn 			X
+491	16003450	NguyenThiThuHa_t61@hus.edu.vn
+492	16003451	NguyenVanDuong_t61@hus.edu.vn
