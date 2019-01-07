@@ -1,0 +1,6 @@
+file './downloads/1.jpg
+file './downloads/2.jpg
+file './downloads/4.jpg
+file './downloads/5.jpg
+file './downloads/6.jpg
+file './downloads/7.jpg
