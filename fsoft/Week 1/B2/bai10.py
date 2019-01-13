@@ -1,0 +1,5 @@
+tuple_exapmle = (2,0,1,8,6,4,9,5,9,9,3,8,7)
+print("First Half: ")
+print(", ".join(str(x) for x in tuple_exapmle[:len(tuple_exapmle)//2]))
+print("Second Half: ")
+print(", ".join(str(x) for x in tuple_exapmle[len(tuple_exapmle)//2:]))

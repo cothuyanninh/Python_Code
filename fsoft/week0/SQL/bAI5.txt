@@ -1,0 +1,23 @@
+sTORY 1:
+Q1: There are different. 
+In Query 1, Join default is inner join.
+In Query 2, Left join # Inner Join
+Q2:
+SELECT * FROM [Categories] where CategoryName = "Grains/Cereals"
+Q3:
+delete from Products where CategoryID = 5
+Q4:
+good question :))
+
+Story 2:
+Q5:
+insert into Categories values(9, "Toys", "Car Toys. wooden toys, dolls")
+Q6:
+
+Story3:
+Q7:
+select * 
+from Products P
+left join Categories C on C.CategoryID = P.CategoryID where C.CategoryName = "Confections"
+Q8:
+

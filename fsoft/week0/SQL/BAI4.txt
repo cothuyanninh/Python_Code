@@ -1,0 +1,33 @@
+15: CHUA DUNG
+SELECT Shippers.ShipperName, Employees.LastName, Employees.FirstName, COUNT(Orders.EmployeeID)
+FROM Orders
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
+INNER JOIN Employees ON Employees.EmployeeID = Orders.EmployeeID GROUP BY Orders.EmployeeID
+16:
+SELECT Shippers.ShipperName, COUNT(Orders.OrderID)
+FROM Orders
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
+INNER JOIN Employees ON Employees.EmployeeID = Orders.EmployeeID WHERE Employees.LastName ="King" group by Orders.EmployeeID
+17:
+SELECT Employees.LastName, Employees.FirstName, count(Orders.EmployeeID)
+FROM Orders
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
+INNER JOIN Employees ON Employees.EmployeeID = Orders.EmployeeID WHERE Orders.ShipperID = 3 group by Orders.EmployeeID
+18:
+SELECT Employees.LastName, Employees.FirstName, count(Orders.EmployeeID)
+FROM Orders
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
+INNER JOIN Employees ON Employees.EmployeeID = Orders.EmployeeID WHERE Orders.ShipperID = 2 and Orders.OrderDate > '1996-10-31' group by Orders.EmployeeID
+19: chua
+SELECT Employees.LastName, Employees.FirstName, count(ProductID.CategoryID)
+FROM Orders
+INNER JOIN Products ON Orders.ShipperID = Products.ShipperID
+INNER JOIN Employees ON Employees.EmployeeID = Orders.EmployeeID group by ProductID.CategoryID
+20:
+SELECT Employees.LastName, Employees.FirstName, SUM(OrderDetails.Quantity) AS SUM
+FROM Orders
+INNER JOIN OrderDetails ON OrderDetails.OrderID = Orders.OrderID
+INNER JOIN Employees ON Employees.EmployeeID = Orders.EmployeeID group by Orders.EmployeeID HAVING SUM > 1500
+21: CHUA
+
+        
