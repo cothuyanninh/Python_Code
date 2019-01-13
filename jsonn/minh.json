@@ -1,0 +1,16 @@
+{
+	"people": [
+		{
+		"name" : "Tran Cong Minh",
+		"age" : "18",
+		"school": "UET",
+		"number phone": "097653"
+		},
+		{
+		"name" : "Tran Van Duy",
+		"age" : "17",
+		"school": "UET-VNU",
+		"number phone": "097652343"
+		}
+	]
+}
