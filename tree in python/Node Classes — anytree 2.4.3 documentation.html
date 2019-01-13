@@ -1,0 +1,685 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0062)https://anytree.readthedocs.io/en/latest/api/anytree.node.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    
+    <title>Node Classes — anytree 2.4.3 documentation</title>
+    <link rel="stylesheet" href="./Node Classes — anytree 2.4.3 documentation_files/sphinxdoc.css" type="text/css">
+    <link rel="stylesheet" href="./Node Classes — anytree 2.4.3 documentation_files/pygments.css" type="text/css">
+    <link rel="stylesheet" href="./Node Classes — anytree 2.4.3 documentation_files/badge_only.css" type="text/css">
+    <script async="" src="./Node Classes — anytree 2.4.3 documentation_files/analytics.js.tải xuống"></script><script type="text/javascript" id="documentation_options" data-url_root="../" src="./Node Classes — anytree 2.4.3 documentation_files/documentation_options.js.tải xuống"></script>
+    <script type="text/javascript" src="./Node Classes — anytree 2.4.3 documentation_files/jquery-2.0.3.min.js.tải xuống"></script>
+    <script type="text/javascript" src="./Node Classes — anytree 2.4.3 documentation_files/jquery-migrate-1.2.1.min.js.tải xuống"></script>
+    <script type="text/javascript" src="./Node Classes — anytree 2.4.3 documentation_files/underscore.js.tải xuống"></script>
+    <script type="text/javascript" src="./Node Classes — anytree 2.4.3 documentation_files/doctools.js.tải xuống"></script>
+    <script type="text/javascript" src="./Node Classes — anytree 2.4.3 documentation_files/readthedocs-doc-embed.js.tải xuống"></script>
+    <link rel="index" title="Index" href="https://anytree.readthedocs.io/en/latest/genindex.html">
+    <link rel="search" title="Search" href="https://anytree.readthedocs.io/en/latest/search.html">
+    <link rel="next" title="Tree Iteration" href="https://anytree.readthedocs.io/en/latest/api/anytree.iterators.html">
+    <link rel="prev" title="API" href="https://anytree.readthedocs.io/en/latest/api.html"> 
+  
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html">
+
+<link rel="stylesheet" href="./Node Classes — anytree 2.4.3 documentation_files/readthedocs-doc-embed.css" type="text/css">
+
+<script type="text/javascript" src="./Node Classes — anytree 2.4.3 documentation_files/readthedocs-data.js.tải xuống"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = 'api/anytree.node'
+READTHEDOCS_DATA['source_suffix'] = '.rst'
+</script>
+
+<script type="text/javascript" src="./Node Classes — anytree 2.4.3 documentation_files/readthedocs-analytics.js.tải xuống"></script>
+
+<!-- end RTD <extrahead> -->
+</head><body style="">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://anytree.readthedocs.io/en/latest/genindex.html" title="General Index" accesskey="I">index</a></li>
+        <li class="right">
+          <a href="https://anytree.readthedocs.io/en/latest/py-modindex.html" title="Python Module Index">modules</a> |</li>
+        <li class="right">
+          <a href="https://anytree.readthedocs.io/en/latest/api/anytree.iterators.html" title="Tree Iteration" accesskey="N">next</a> |</li>
+        <li class="right">
+          <a href="https://anytree.readthedocs.io/en/latest/api.html" title="API" accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="https://anytree.readthedocs.io/en/latest/index.html">anytree 2.4.3 documentation</a> »</li>
+          <li class="nav-item nav-item-1"><a href="https://anytree.readthedocs.io/en/latest/api.html" accesskey="U">API</a> »</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="https://anytree.readthedocs.io/en/latest/api.html" title="previous chapter">API</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="https://anytree.readthedocs.io/en/latest/api/anytree.iterators.html" title="next chapter">Tree Iteration</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="https://anytree.readthedocs.io/en/latest/_sources/api/anytree.node.rst.txt" rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="https://anytree.readthedocs.io/en/latest/search.html" method="get">
+      <input type="text" name="q">
+      <input type="submit" value="Go">
+      <input type="hidden" name="check_keywords" value="yes">
+      <input type="hidden" name="area" value="default">
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-anytree.node">
+<span id="node-classes"></span><h1>Node Classes<a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#module-anytree.node" title="Permalink to this headline">¶</a></h1>
+<p>Node Classes.</p>
+<ul class="simple">
+<li><a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.anynode.AnyNode" title="anytree.node.anynode.AnyNode"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AnyNode</span></code></a>: a generic tree node with any number of attributes.</li>
+<li><a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.node.Node" title="anytree.node.node.Node"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Node</span></code></a>: a simple tree node with at least a name attribute and any number of additional attributes.</li>
+<li><a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin" title="anytree.node.nodemixin.NodeMixin"><code class="xref any py py-class docutils literal notranslate"><span class="pre">NodeMixin</span></code></a>: extends any python class to a tree node.</li>
+</ul>
+<span class="target" id="module-anytree.node.anynode"></span><dl class="class">
+<dt id="anytree.node.anynode.AnyNode">
+<em class="property">class </em><code class="descclassname">anytree.node.anynode.</code><code class="descname">AnyNode</code><span class="sig-paren">(</span><em>parent=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="https://anytree.readthedocs.io/en/latest/_modules/anytree/node/anynode.html#AnyNode"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.anynode.AnyNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin" title="anytree.node.nodemixin.NodeMixin"><code class="xref py py-class docutils literal notranslate"><span class="pre">anytree.node.nodemixin.NodeMixin</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>A generic tree node with any <cite>kwargs</cite>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">AnyNode</span><span class="p">,</span> <span class="n">RenderTree</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"root"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s0</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"sub0"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">root</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s0b</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"sub0B"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s0</span><span class="p">,</span> <span class="n">foo</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="mi">109</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s0a</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"sub0A"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"sub1"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">root</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1a</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"sub1A"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1b</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"sub1B"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s1</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1c</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"sub1C"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1ca</span> <span class="o">=</span> <span class="n">AnyNode</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="s2">"sub1Ca"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s1c</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span>
+<span class="go">AnyNode(id='root')</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s0</span>
+<span class="go">AnyNode(id='sub0')</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">RenderTree</span><span class="p">(</span><span class="n">root</span><span class="p">))</span>
+<span class="go">AnyNode(id='root')</span>
+<span class="go">├── AnyNode(id='sub0')</span>
+<span class="go">│   ├── AnyNode(bar=109, foo=4, id='sub0B')</span>
+<span class="go">│   └── AnyNode(id='sub0A')</span>
+<span class="go">└── AnyNode(id='sub1')</span>
+<span class="go">    ├── AnyNode(id='sub1A')</span>
+<span class="go">    ├── AnyNode(bar=8, id='sub1B')</span>
+<span class="go">    └── AnyNode(id='sub1C')</span>
+<span class="go">        └── AnyNode(id='sub1Ca')</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<span class="target" id="module-anytree.node.node"></span><dl class="class">
+<dt id="anytree.node.node.Node">
+<em class="property">class </em><code class="descclassname">anytree.node.node.</code><code class="descname">Node</code><span class="sig-paren">(</span><em>name</em>, <em>parent=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="https://anytree.readthedocs.io/en/latest/_modules/anytree/node/node.html#Node"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.node.Node" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin" title="anytree.node.nodemixin.NodeMixin"><code class="xref py py-class docutils literal notranslate"><span class="pre">anytree.node.nodemixin.NodeMixin</span></code></a>, <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<p>A simple tree node with a <cite>name</cite> and any <cite>kwargs</cite>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span><span class="p">,</span> <span class="n">RenderTree</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"root"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s0</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"sub0"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">root</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s0b</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"sub0B"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s0</span><span class="p">,</span> <span class="n">foo</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="mi">109</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s0a</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"sub0A"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"sub1"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">root</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1a</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"sub1A"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1b</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"sub1B"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s1</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1c</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"sub1C"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">s1ca</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"sub1Ca"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">s1c</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">RenderTree</span><span class="p">(</span><span class="n">root</span><span class="p">))</span>
+<span class="go">Node('/root')</span>
+<span class="go">├── Node('/root/sub0')</span>
+<span class="go">│   ├── Node('/root/sub0/sub0B', bar=109, foo=4)</span>
+<span class="go">│   └── Node('/root/sub0/sub0A')</span>
+<span class="go">└── Node('/root/sub1')</span>
+<span class="go">    ├── Node('/root/sub1/sub1A')</span>
+<span class="go">    ├── Node('/root/sub1/sub1B', bar=8)</span>
+<span class="go">    └── Node('/root/sub1/sub1C')</span>
+<span class="go">        └── Node('/root/sub1/sub1C/sub1Ca')</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<span class="target" id="module-anytree.node.nodemixin"></span><dl class="class">
+<dt id="anytree.node.nodemixin.NodeMixin">
+<em class="property">class </em><code class="descclassname">anytree.node.nodemixin.</code><code class="descname">NodeMixin</code><a class="reference internal" href="https://anytree.readthedocs.io/en/latest/_modules/anytree/node/nodemixin.html#NodeMixin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.separator">
+<code class="descname">separator</code><em class="property"> = '/'</em><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.separator" title="Permalink to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin" title="anytree.node.nodemixin.NodeMixin"><code class="xref any py py-class docutils literal notranslate"><span class="pre">NodeMixin</span></code></a> class extends any Python class to a tree node.</p>
+<p>The only tree relevant information is the <cite>parent</cite> attribute.
+If <cite>None</cite> the <a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin" title="anytree.node.nodemixin.NodeMixin"><code class="xref any py py-class docutils literal notranslate"><span class="pre">NodeMixin</span></code></a> is root node.
+If set to another node, the <a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin" title="anytree.node.nodemixin.NodeMixin"><code class="xref any py py-class docutils literal notranslate"><span class="pre">NodeMixin</span></code></a> becomes the child of it.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">NodeMixin</span><span class="p">,</span> <span class="n">RenderTree</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">class</span> <span class="nc">MyBaseClass</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="n">foo</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">(</span><span class="n">MyBaseClass</span><span class="p">,</span> <span class="n">NodeMixin</span><span class="p">):</span>  <span class="c1"># Add Node feature</span>
+<span class="gp">... </span>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="gp">... </span>        <span class="nb">super</span><span class="p">(</span><span class="n">MyClass</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+<span class="gp">... </span>        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+<span class="gp">... </span>        <span class="bp">self</span><span class="o">.</span><span class="n">length</span> <span class="o">=</span> <span class="n">length</span>
+<span class="gp">... </span>        <span class="bp">self</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="n">width</span>
+<span class="gp">... </span>        <span class="bp">self</span><span class="o">.</span><span class="n">parent</span> <span class="o">=</span> <span class="n">parent</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">my0</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">(</span><span class="s1">'my0'</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">my1</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">(</span><span class="s1">'my1'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">my0</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">my2</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">(</span><span class="s1">'my2'</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">my0</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">pre</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">RenderTree</span><span class="p">(</span><span class="n">my0</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="n">treestr</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">"</span><span class="si">%s%s</span><span class="s2">"</span> <span class="o">%</span> <span class="p">(</span><span class="n">pre</span><span class="p">,</span> <span class="n">node</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="n">treestr</span><span class="o">.</span><span class="n">ljust</span><span class="p">(</span><span class="mi">8</span><span class="p">),</span> <span class="n">node</span><span class="o">.</span><span class="n">length</span><span class="p">,</span> <span class="n">node</span><span class="o">.</span><span class="n">width</span><span class="p">)</span>
+<span class="go">my0      0 0</span>
+<span class="go">├── my1  1 0</span>
+<span class="go">└── my2  0 2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.parent">
+<code class="descname">parent</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.parent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parent Node.</p>
+<p>On set, the node is detached from any previous parent node and attached
+to the new node.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span><span class="p">,</span> <span class="n">RenderTree</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">RenderTree</span><span class="p">(</span><span class="n">udo</span><span class="p">))</span>
+<span class="go">Node('/Udo')</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">RenderTree</span><span class="p">(</span><span class="n">marc</span><span class="p">))</span>
+<span class="go">Node('/Marc')</span>
+<span class="go">└── Node('/Marc/Lian')</span>
+</pre></div>
+</div>
+<p><strong>Attach</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">parent</span> <span class="o">=</span> <span class="n">udo</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">RenderTree</span><span class="p">(</span><span class="n">udo</span><span class="p">))</span>
+<span class="go">Node('/Udo')</span>
+<span class="go">└── Node('/Udo/Marc')</span>
+<span class="go">    └── Node('/Udo/Marc/Lian')</span>
+</pre></div>
+</div>
+<p><strong>Detach</strong></p>
+<p>To make a node to a root node, just set this attribute to <cite>None</cite>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">is_root</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">parent</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">is_root</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.children">
+<code class="descname">children</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.children" title="Permalink to this definition">¶</a></dt>
+<dd><p>All child nodes.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">n</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"n"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"a"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"b"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">c</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"c"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">n</span><span class="o">.</span><span class="n">children</span>
+<span class="go">(Node('/n/a'), Node('/n/b'), Node('/n/c'))</span>
+</pre></div>
+</div>
+<p>Modifying the children attribute modifies the tree.</p>
+<p><strong>Detach</strong></p>
+<p>The children attribute can be updated by setting to an iterable.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">n</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">n</span><span class="o">.</span><span class="n">children</span>
+<span class="go">(Node('/n/a'), Node('/n/b'))</span>
+</pre></div>
+</div>
+<p>Node <cite>c</cite> is removed from the tree.
+In case of an existing reference, the node <cite>c</cite> does not vanish and is the root of its own tree.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">c</span>
+<span class="go">Node('/c')</span>
+</pre></div>
+</div>
+<p><strong>Attach</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">d</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"d"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">d</span>
+<span class="go">Node('/d')</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">n</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">d</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">n</span><span class="o">.</span><span class="n">children</span>
+<span class="go">(Node('/n/a'), Node('/n/b'), Node('/n/d'))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">d</span>
+<span class="go">Node('/n/d')</span>
+</pre></div>
+</div>
+<p><strong>Duplicate</strong></p>
+<p>A node can just be the children once. Duplicates cause a <a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.exceptions.TreeError" title="anytree.node.exceptions.TreeError"><code class="xref any py py-exc docutils literal notranslate"><span class="pre">TreeError</span></code></a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">n</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">a</span><span class="p">]</span>
+<span class="gt">Traceback (most recent call last):</span>
+    <span class="o">...</span>
+<span class="gr">anytree.node.exceptions.TreeError</span>: <span class="n">Cannot add node Node('/n/a') multiple times as child.</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.path">
+<code class="descname">path</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Path of this <cite>Node</cite>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">path</span>
+<span class="go">(Node('/Udo'),)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">path</span>
+<span class="go">(Node('/Udo'), Node('/Udo/Marc'))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">path</span>
+<span class="go">(Node('/Udo'), Node('/Udo/Marc'), Node('/Udo/Marc/Lian'))</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.ancestors">
+<code class="descname">ancestors</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.ancestors" title="Permalink to this definition">¶</a></dt>
+<dd><p>All parent nodes and their parent nodes.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">ancestors</span>
+<span class="go">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">ancestors</span>
+<span class="go">(Node('/Udo'),)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">ancestors</span>
+<span class="go">(Node('/Udo'), Node('/Udo/Marc'))</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.anchestors">
+<code class="descname">anchestors</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.anchestors" title="Permalink to this definition">¶</a></dt>
+<dd><p>All parent nodes and their parent nodes - see <a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.ancestors" title="anytree.node.nodemixin.NodeMixin.ancestors"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">ancestors</span></code></a>.</p>
+<p>The attribute <cite>anchestors</cite> is just a typo of <cite>ancestors</cite>. Please use <cite>ancestors</cite>.
+This attribute will be removed in the 2.0.0 release.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.descendants">
+<code class="descname">descendants</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.descendants" title="Permalink to this definition">¶</a></dt>
+<dd><p>All child nodes and all their child nodes.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">loui</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Loui"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">soe</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Soe"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">lian</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">descendants</span>
+<span class="go">(Node('/Udo/Marc'), Node('/Udo/Marc/Lian'), Node('/Udo/Marc/Lian/Soe'), Node('/Udo/Marc/Loui'))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">descendants</span>
+<span class="go">(Node('/Udo/Marc/Lian'), Node('/Udo/Marc/Lian/Soe'), Node('/Udo/Marc/Loui'))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">descendants</span>
+<span class="go">(Node('/Udo/Marc/Lian/Soe'),)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.root">
+<code class="descname">root</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.root" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tree Root Node.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">root</span>
+<span class="go">Node('/Udo')</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">root</span>
+<span class="go">Node('/Udo')</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">root</span>
+<span class="go">Node('/Udo')</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.siblings">
+<code class="descname">siblings</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.siblings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tuple of nodes with the same parent.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">loui</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Loui"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lazy</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lazy"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">siblings</span>
+<span class="go">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">siblings</span>
+<span class="go">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">siblings</span>
+<span class="go">(Node('/Udo/Marc/Loui'), Node('/Udo/Marc/Lazy'))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">loui</span><span class="o">.</span><span class="n">siblings</span>
+<span class="go">(Node('/Udo/Marc/Lian'), Node('/Udo/Marc/Lazy'))</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.is_leaf">
+<code class="descname">is_leaf</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.is_leaf" title="Permalink to this definition">¶</a></dt>
+<dd><p><cite>Node</cite> has no children (External Node).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">is_leaf</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">is_leaf</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">is_leaf</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.is_root">
+<code class="descname">is_root</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.is_root" title="Permalink to this definition">¶</a></dt>
+<dd><p><cite>Node</cite> is tree root.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">is_root</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">is_root</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">is_root</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.height">
+<code class="descname">height</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.height" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of edges on the longest path to a leaf <cite>Node</cite>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">height</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">height</span>
+<span class="go">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">height</span>
+<span class="go">0</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="anytree.node.nodemixin.NodeMixin.depth">
+<code class="descname">depth</code><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.nodemixin.NodeMixin.depth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of edges to the root <cite>Node</cite>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">anytree</span> <span class="k">import</span> <span class="n">Node</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Udo"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Marc"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">udo</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span> <span class="o">=</span> <span class="n">Node</span><span class="p">(</span><span class="s2">"Lian"</span><span class="p">,</span> <span class="n">parent</span><span class="o">=</span><span class="n">marc</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">udo</span><span class="o">.</span><span class="n">depth</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">marc</span><span class="o">.</span><span class="n">depth</span>
+<span class="go">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lian</span><span class="o">.</span><span class="n">depth</span>
+<span class="go">2</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-anytree.node.exceptions"></span><dl class="exception">
+<dt id="anytree.node.exceptions.TreeError">
+<em class="property">exception </em><code class="descclassname">anytree.node.exceptions.</code><code class="descname">TreeError</code><a class="reference internal" href="https://anytree.readthedocs.io/en/latest/_modules/anytree/node/exceptions.html#TreeError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.exceptions.TreeError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">exceptions.RuntimeError</span></code></p>
+<p>Tree Error.</p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="anytree.node.exceptions.LoopError">
+<em class="property">exception </em><code class="descclassname">anytree.node.exceptions.</code><code class="descname">LoopError</code><a class="reference internal" href="https://anytree.readthedocs.io/en/latest/_modules/anytree/node/exceptions.html#LoopError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.exceptions.LoopError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html#anytree.node.exceptions.TreeError" title="anytree.node.exceptions.TreeError"><code class="xref py py-class docutils literal notranslate"><span class="pre">anytree.node.exceptions.TreeError</span></code></a></p>
+<p>Tree contains infinite loop.</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://anytree.readthedocs.io/en/latest/genindex.html" title="General Index">index</a></li>
+        <li class="right">
+          <a href="https://anytree.readthedocs.io/en/latest/py-modindex.html" title="Python Module Index">modules</a> |</li>
+        <li class="right">
+          <a href="https://anytree.readthedocs.io/en/latest/api/anytree.iterators.html" title="Tree Iteration">next</a> |</li>
+        <li class="right">
+          <a href="https://anytree.readthedocs.io/en/latest/api.html" title="API">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="https://anytree.readthedocs.io/en/latest/index.html">anytree 2.4.3 documentation</a> »</li>
+          <li class="nav-item nav-item-1"><a href="https://anytree.readthedocs.io/en/latest/api.html">API</a> »</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        © Copyright .
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  
+<!-- Inserted RTD Footer -->
+<div class="injected">
+
+  
+  <div class="rst-versions rst-badge" data-toggle="rst-versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book">&nbsp;</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+
+      
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+         <strong> 
+        <dd><a href="https://anytree.readthedocs.io/en/latest/api/anytree.node.html">latest</a></dd>
+         </strong> 
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/stable/api/anytree.node.html">stable</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.4.3/api/anytree.node.html">2.4.3</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.4.2/api/anytree.node.html">2.4.2</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.4.1/api/anytree.node.html">2.4.1</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.4.0/api/anytree.node.html">2.4.0</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.3.0/api/anytree.node.html">2.3.0</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.2.2/api/anytree.node.html">2.2.2</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.2.1/api/anytree.node.html">2.2.1</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.2.0/api/anytree.node.html">2.2.0</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.1.4/api/anytree.node.html">2.1.4</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.1.3/api/anytree.node.html">2.1.3</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.1.2/api/anytree.node.html">2.1.2</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.1.1/api/anytree.node.html">2.1.1</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.1.0/api/anytree.node.html">2.1.0</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/2.0.0/api/anytree.node.html">2.0.0</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/1.0.4/api/anytree.node.html">1.0.4</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/1.0.2/api/anytree.node.html">1.0.2</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/1.0.1/api/anytree.node.html">1.0.1</a></dd>
+        
+        
+        
+        <dd><a href="https://anytree.readthedocs.io/en/1.0.0/api/anytree.node.html">1.0.0</a></dd>
+        
+        
+      </dl>
+      
+      
+
+      
+      
+      <dl>
+        <dt>Downloads</dt>
+        
+        <dd><a href="https://readthedocs.org/projects/anytree/downloads/pdf/latest/">PDF</a></dd>
+        
+        <dd><a href="https://readthedocs.org/projects/anytree/downloads/htmlzip/latest/">HTML</a></dd>
+        
+        <dd><a href="https://readthedocs.org/projects/anytree/downloads/epub/latest/">Epub</a></dd>
+        
+      </dl>
+      
+      
+
+      
+      <dl>
+        <!-- These are kept as relative links for internal installs that are http -->
+        <dt>On Read the Docs</dt>
+        <dd>
+          <a href="https://readthedocs.org/projects/anytree/">Project Home</a>
+        </dd>
+        <dd>
+          <a href="https://readthedocs.org/projects/anytree/builds/">Builds</a>
+        </dd>
+        <dd>
+          <a href="https://readthedocs.org/projects/anytree/downloads/">Downloads</a>
+        </dd>
+      </dl>
+      
+
+      
+
+      
+      <dl>
+        <dt>On GitHub</dt>
+        <dd>
+          <a href="https://github.com/c0fec0de/anytree/blob/master/docs/api/anytree.node.rst">View</a>
+        </dd>
+        <dd>
+          <a href="https://github.com/c0fec0de/anytree/edit/master/docs/api/anytree.node.rst">Edit</a>
+        </dd>
+      </dl>
+      
+      
+
+      
+      <dl>
+        <dt>Search</dt>
+        <dd>
+          <div style="padding: 6px;">
+            <form id="flyout-search-form" class="wy-form" target="_blank" action="https://readthedocs.org/projects/anytree/search/" method="get">
+              <input type="text" name="q" placeholder="Search docs">
+              </form>
+          </div>
+        </dd>
+      </dl>
+      
+
+
+
+      <hr>
+      
+        <small>
+          <span>Hosted by <a href="https://readthedocs.org/">Read the Docs</a></span>
+          <span> · </span>
+          <a href="https://docs.readthedocs.io/en/latest/privacy-policy.html">Privacy Policy</a>
+        </small>
+      
+
+      
+    </div>
+  </div>
+  
+
+</div>
+</body><div class="corom-element" style="all: initial;"></div></html>

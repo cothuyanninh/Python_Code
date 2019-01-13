@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)https://hackernoon.com/media/96fa735be22c6d4452cf57ceae99182c?postId=117428612f46 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Step 11: Implementing Consensus Algorithm – Medium</title><meta name="description" content="Step 11: Implementing Consensus Algorithm"><meta name="twitter:widgets:csp" content="on"><meta name="robots" content="noindex"><!--<base target="_blank">--><base href="." target="_blank"><style>body {text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif; font-weight: 400; color: #333332; font-size: 18px; line-height: 1.4; margin: 0; background-color: white; overflow: hidden;}iframe {max-width: 100%;}</style></head><body><style>.gist .gist-file { margin-bottom: 0 !important; }.gist { text-rendering: auto; }</style><script src="./976f547c09160b495f44bb0b70541ff7.js.tải xuống" charset="utf-8"></script><link rel="stylesheet" href="./gist-embed-2c768148c4d27cab10fe818942078e18.css"><div id="gist80069856" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-blockchain-py" class="file">
+    
+
+  <div itemprop="text" class="blob-wrapper data type-python ">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tbody><tr>
+        <td id="file-blockchain-py-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-blockchain-py-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">...</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-blockchain-py-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> requests</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-blockchain-py-LC3" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-blockchain-py-LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-blockchain-py-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">class</span> <span class="pl-en">Blockchain</span>(<span class="pl-c1">object</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-blockchain-py-LC6" class="blob-code blob-code-inner js-file-line">    ...</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-blockchain-py-LC7" class="blob-code blob-code-inner js-file-line">    </td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-blockchain-py-LC8" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en">valid_chain</span>(<span class="pl-c1">self</span>, <span class="pl-e">chain</span>):</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-blockchain-py-LC9" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">"""</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-blockchain-py-LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        Determine if a given blockchain is valid</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-blockchain-py-LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-blockchain-py-LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        :param chain: &lt;list&gt; A blockchain</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-blockchain-py-LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        :return: &lt;bool&gt; True if valid, False if not</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-blockchain-py-LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        <span class="pl-pds">"""</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-blockchain-py-LC15" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-blockchain-py-LC16" class="blob-code blob-code-inner js-file-line">        last_block <span class="pl-k">=</span> chain[<span class="pl-c1">0</span>]</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-blockchain-py-LC17" class="blob-code blob-code-inner js-file-line">        current_index <span class="pl-k">=</span> <span class="pl-c1">1</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-blockchain-py-LC18" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-blockchain-py-LC19" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">while</span> current_index <span class="pl-k">&lt;</span> <span class="pl-c1">len</span>(chain):</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-blockchain-py-LC20" class="blob-code blob-code-inner js-file-line">            block <span class="pl-k">=</span> chain[current_index]</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-blockchain-py-LC21" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">print</span>(<span class="pl-s">f</span><span class="pl-pds">'</span><span class="pl-c1">{</span>last_block<span class="pl-c1">}</span><span class="pl-pds">'</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-blockchain-py-LC22" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">print</span>(<span class="pl-s">f</span><span class="pl-pds">'</span><span class="pl-c1">{</span>block<span class="pl-c1">}</span><span class="pl-pds">'</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-blockchain-py-LC23" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">print</span>(<span class="pl-s"><span class="pl-pds">"</span><span class="pl-cce">\n</span>-----------<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-blockchain-py-LC24" class="blob-code blob-code-inner js-file-line">            <span class="pl-c"><span class="pl-c">#</span> Check that the hash of the block is correct</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-blockchain-py-LC25" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> block[<span class="pl-s"><span class="pl-pds">'</span>previous_hash<span class="pl-pds">'</span></span>] <span class="pl-k">!=</span> <span class="pl-c1">self</span>.hash(last_block):</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-blockchain-py-LC26" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> <span class="pl-c1">False</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-blockchain-py-LC27" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-blockchain-py-LC28" class="blob-code blob-code-inner js-file-line">            <span class="pl-c"><span class="pl-c">#</span> Check that the Proof of Work is correct</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-blockchain-py-LC29" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> <span class="pl-k">not</span> <span class="pl-c1">self</span>.valid_proof(last_block[<span class="pl-s"><span class="pl-pds">'</span>proof<span class="pl-pds">'</span></span>], block[<span class="pl-s"><span class="pl-pds">'</span>proof<span class="pl-pds">'</span></span>]):</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-blockchain-py-LC30" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> <span class="pl-c1">False</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="file-blockchain-py-LC31" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="file-blockchain-py-LC32" class="blob-code blob-code-inner js-file-line">            last_block <span class="pl-k">=</span> block</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="file-blockchain-py-LC33" class="blob-code blob-code-inner js-file-line">            current_index <span class="pl-k">+=</span> <span class="pl-c1">1</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="file-blockchain-py-LC34" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="file-blockchain-py-LC35" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> <span class="pl-c1">True</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="file-blockchain-py-LC36" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="file-blockchain-py-LC37" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">def</span> <span class="pl-en">resolve_conflicts</span>(<span class="pl-smi"><span class="pl-smi">self</span></span>):</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="file-blockchain-py-LC38" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">"""</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="file-blockchain-py-LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        This is our Consensus Algorithm, it resolves conflicts</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="file-blockchain-py-LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        by replacing our chain with the longest one in the network.</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="file-blockchain-py-LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="file-blockchain-py-LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        :return: &lt;bool&gt; True if our chain was replaced, False if not</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="file-blockchain-py-LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-s">        <span class="pl-pds">"""</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="file-blockchain-py-LC44" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="file-blockchain-py-LC45" class="blob-code blob-code-inner js-file-line">        neighbours <span class="pl-k">=</span> <span class="pl-c1">self</span>.nodes</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="file-blockchain-py-LC46" class="blob-code blob-code-inner js-file-line">        new_chain <span class="pl-k">=</span> <span class="pl-c1">None</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="file-blockchain-py-LC47" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="file-blockchain-py-LC48" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">#</span> We're only looking for chains longer than ours</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="file-blockchain-py-LC49" class="blob-code blob-code-inner js-file-line">        max_length <span class="pl-k">=</span> <span class="pl-c1">len</span>(<span class="pl-c1">self</span>.chain)</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="file-blockchain-py-LC50" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="file-blockchain-py-LC51" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">#</span> Grab and verify the chains from all the nodes in our network</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="file-blockchain-py-LC52" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">for</span> node <span class="pl-k">in</span> neighbours:</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="file-blockchain-py-LC53" class="blob-code blob-code-inner js-file-line">            response <span class="pl-k">=</span> requests.get(<span class="pl-s">f</span><span class="pl-pds">'</span><span class="pl-s">http://</span><span class="pl-c1">{</span>node<span class="pl-c1">}</span><span class="pl-s">/chain</span><span class="pl-pds">'</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="file-blockchain-py-LC54" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="file-blockchain-py-LC55" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">if</span> response.status_code <span class="pl-k">==</span> <span class="pl-c1">200</span>:</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="file-blockchain-py-LC56" class="blob-code blob-code-inner js-file-line">                length <span class="pl-k">=</span> response.json()[<span class="pl-s"><span class="pl-pds">'</span>length<span class="pl-pds">'</span></span>]</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="file-blockchain-py-LC57" class="blob-code blob-code-inner js-file-line">                chain <span class="pl-k">=</span> response.json()[<span class="pl-s"><span class="pl-pds">'</span>chain<span class="pl-pds">'</span></span>]</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="file-blockchain-py-LC58" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="file-blockchain-py-LC59" class="blob-code blob-code-inner js-file-line">                <span class="pl-c"><span class="pl-c">#</span> Check if the length is longer and the chain is valid</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="file-blockchain-py-LC60" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">if</span> length <span class="pl-k">&gt;</span> max_length <span class="pl-k">and</span> <span class="pl-c1">self</span>.valid_chain(chain):</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="file-blockchain-py-LC61" class="blob-code blob-code-inner js-file-line">                    max_length <span class="pl-k">=</span> length</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="file-blockchain-py-LC62" class="blob-code blob-code-inner js-file-line">                    new_chain <span class="pl-k">=</span> chain</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="file-blockchain-py-LC63" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="file-blockchain-py-LC64" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">#</span> Replace our chain if we discovered a new, valid chain longer than ours</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="file-blockchain-py-LC65" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">if</span> new_chain:</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="file-blockchain-py-LC66" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">self</span>.chain <span class="pl-k">=</span> new_chain</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="file-blockchain-py-LC67" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">return</span> <span class="pl-c1">True</span></td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="file-blockchain-py-LC68" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-blockchain-py-L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="file-blockchain-py-LC69" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">return</span> <span class="pl-c1">False</span></td>
+      </tr>
+</tbody></table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/dvf/976f547c09160b495f44bb0b70541ff7/raw/dad03f9de88e4dac09f0fa805b873d470ac0b238/blockchain.py" style="float:right">view raw</a>
+        <a href="https://gist.github.com/dvf/976f547c09160b495f44bb0b70541ff7#file-blockchain-py">blockchain.py</a>
+        hosted with ❤ by <a href="https://github.com/">GitHub</a>
+      </div>
+    </div>
+</div>
+<script>var height = -1; var delayMs = 200;function notifyResize(height) {height = height ? height : document.documentElement.offsetHeight; var resized = false; if (window.donkey && donkey.resize) {donkey.resize(height); resized = true;}if (parent && parent._resizeIframe) {var obj = {iframe: window.frameElement, height: height}; parent._resizeIframe(obj); resized = true;}if (window.location && window.location.hash === "#amp=1" && window.parent && window.parent.postMessage) {window.parent.postMessage({sentinel: "amp", type: "embed-size", height: height}, "*");}if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.resize) {window.webkit.messageHandlers.resize.postMessage(height); resized = true;}return resized;}function maybeResize() {if (document.documentElement.offsetHeight != height && notifyResize()) {height = document.documentElement.offsetHeight;}delayMs = Math.min(delayMs * 2, 1000000); setTimeout(maybeResize, delayMs);}maybeResize();</script></body></html>
